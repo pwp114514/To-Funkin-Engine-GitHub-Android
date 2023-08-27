@@ -249,7 +249,7 @@ class TitleState extends MusicBeatState
 				gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		}
 
-		titlestatebg = new FlxBackdrop(Paths.image('loading'), 0.2, 0);
+		titlestatebg = new FlxBackdrop(Paths.image('loading'));
 		titlestatebg.velocity.set(200, 110);
 		titlestatebg.updateHitbox();
 		titlestatebg.alpha = 0.5;
